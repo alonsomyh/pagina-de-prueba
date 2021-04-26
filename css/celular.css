@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 375px){
+	
+	#interior{
+		display: none;
+	}
+
+	#derecha{
+		display: none;
+	}
+
+	.text-1{
+		display: none;
+	}
+
+	.text-2{
+		display: none;
+	}
+
+	.boton-1{
+		display: none;
+	}
+
+	.boton-2{
+		display: none;
+	}
+
+	.tex{
+		display: none;
+	}
+
+	#section-inicio{
+		width: 100%;
+		display: block;
+		position: relative;
+		top:-70px;
+	}
+
+	.article-celular{
+		display: block;
+		width: 100%;
+	}
+
+	.img-celular{
+		display: block;
+		width: 100%;
+	}
+
+	#aside-celular{
+		display: block;
+		width: 80%;
+		height: 200px;
+		background: rgba(0,0,0,0.5);
+		position: relative;
+		margin-top: -350px; 
+		left: 40px;
+		border-radius: 10px;
+	}
+
+	.div-3{
+		display: block;
+		font-family: Bahnschrift;
+		font-size: 30px;
+		font-weight: bold;
+		position: relative;
+		left: 80px;
+		top:30px;
+		color: white;
+		width: 20px;
+	}
+
+	.div-4{
+		display: block;
+		font-family: Bahnschrift;
+		font-size: 18px;
+		width: 250px;
+		color: white;
+		position: relative;
+		top:40px;
+		left: 40px;
+	}
+
+	.bot-3{
+		display: block;
+		width: 25%;
+		height: 10%;
+		background: ;
+		border-radius: 5px;
+		border: 2px solid white; 
+		position: relative;
+		margin-top: 60px;
+		left: 40px;
+	}
+
+	.bot-4{
+		display: block;
+		width: 25%;
+		height: 10%;
+		background: ;
+		border-radius: 5px;
+		border: 2px solid white;
+		position: relative;
+		margin-top: -25px;
+		left: 160px;
+	}
+
+	.text{
+		display: block;
+		color: white;
+		font-size: 13px;
+		font-family: Bahnschrift;
+		position: relative;
+		margin-top: 4px;
+		left: 5px;
+	}
+
+	.bot-4:hover{
+		color: black;
+		background: white;
+	}
+
+	.bot-3:hover{
+		color: black;
+		background: white;
+	}
+
+	.text:hover{
+		color: black;
+	}
+}
